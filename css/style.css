@@ -1,0 +1,62 @@
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+a {
+    color: #5f6368 !important; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.app_button {
+    width: 15px;
+}
+
+.sign-btn{
+    background-color: #4285f4;
+    color: #f2f2f2;
+    padding: 5px;
+    margin: 4px;
+    font-weight: bold;
+    border: 0px;
+    height: 1.9rem;
+    width: 4.2rem;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.search_button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 5px;
+}
