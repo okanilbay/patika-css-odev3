@@ -29,6 +29,7 @@ a {
     width: 15px;
 }
 
+/* Giriş yap butonu için stil */
 .sign-btn{
     background-color: #4285f4;
     color: #f2f2f2;
@@ -40,19 +41,65 @@ a {
     width: 4.2rem;
 }
 
+/* sayfa logosu için stil */
 .logo{
     justify-content: center;
     display: flex;
     align-items: center;
     flex: 1;
 }
-.search_button {
+/* Arama bölümü için genel stil */
+.search-container {
     justify-content: center;
     display: flex;
     align-items: center;
     flex: 1;
 }
 
+/* Arama butonu için stil */
+.search-box{
+    width: 480px;
+    height: 45px;
+    border-radius: 50px;
+    border-color: #f2f2f2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 47%;
+    left: 34%;
+}
+
+/* İkonlar için genel stil */
+.icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+/* Arama ikonu için stil */
+.search-icon {
+    left: 35%;
+}
+
+/* Ses ikonu için stil */
+.voice-icon {
+    right: 35%;
+}
+
+/* Butonlar için stil */
+.button{
+    height: 36px;
+    border: 1px;
+    border-color: #f2f2f2;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    padding: 0px 20px;
+    color: #5f6368
+}
+
+/* Footer için stil */
 .footer {
     background-color: #f2f2f2;
     display: flex;
